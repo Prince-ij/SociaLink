@@ -38,10 +38,19 @@
    python3 -m venv .venv
    source .venv/bin/activate  # On Windows use `.venv\Scripts\activate`
 
-3. ```bash
+3. **Install requirements**
+   ```bash
    pip install -r requirements.txt
 
-4. ```bash
+4. **Run the app locally**
+   ```bash
     uvicorn socialink.main:app --reload
-5. ```
+5. **Run tests**
+   ```
     pytest
+
+## API Documentation
+
+You can access the full API documentation via Postman here:
+
+👉 [SociaLink Documentation](https://documenter.getpostman.com/view/41195518/2sB2j3BBjM)
